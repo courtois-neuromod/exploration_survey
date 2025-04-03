@@ -13,7 +13,6 @@ def get_screen_info(win):
     }
     return info
 
-print("Screen information:")
 
 def get_text(win):
     screen_info = get_screen_info(win)
