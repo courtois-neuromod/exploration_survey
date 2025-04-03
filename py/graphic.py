@@ -13,6 +13,8 @@ def get_screen_info(win):
     }
     return info
 
+print("Screen information:")
+
 def get_text(win):
     screen_info = get_screen_info(win)
     screen_ratio = screen_info["screen_ratio"]
